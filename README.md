@@ -1,0 +1,1 @@
+# checkmk_plugin_smart_attributes_monitoring
