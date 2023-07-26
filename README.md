@@ -1,4 +1,4 @@
-## CheckMK-Plugin zum Monitoring von Festplatten ##
+## CheckMK Plugin zum Monitoring von Festplatten ##
 Das CheckMK-Plugin zum Monitoring von Festplatten ermöglicht die **Überwachung der SMART-Werte** von SSDs und Festplatten in Echtzeit. <br>
 Es können Probleme mit Festplatten frühzeitig erkannt und behoben werden, um potenzielle Ausfälle und Datenverlust zu vermeiden. <br>
 Das Plugin verwendet für die Abfrage der Smart-Werte den Kommandozeile-Befehl **smartctl**. <br>
@@ -30,13 +30,13 @@ Dieses Projekt enthält zwei Dateien: <br>
   - Services konfigurieren: welche Dienste werden in der Überwachung angezeigt
   - Änderungen aktiviren und dann in den Überwachungsprozess einbezogen
 - Die Datei **werte_random.py** soll kopieren in das Verzeichnis: **/omd/sites/dein_sites_name/local/lib/check_mk/base/plugins/agent_based** <br>
-- Die Datei **werte_random.sh** soll auf dem Host kopieren in das Verzeichnis: **/lib/check_mk_agent/plugins**. Hier sehr wichtig die Bash-Skript (auch Textdatei) muss ausführbar sein: **chmod +x werte_random.sh (chmod +x werte_random.txt)** <br>
+- Die Datei **werte_random.sh** soll auf dem Host kopieren in das Verzeichnis: **/lib/check_mk_agent/plugins**. Hier **_sehr wichtig_** die Bash-Skript (auch Textdatei) muss ausführbar sein: **chmod +x werte_random.sh (chmod +x werte_random.txt)** <br>
 
 ## Ergebnisse ##
-OK - Alles in Ordnung! <br>
-CRIT - Eine der SMART-Wert funktioniert nicht richtig! <br>
-WARM - Unbekannter Parameter! <br>
-UNKNOWN - Datei wurde nicht gefunden! <br>
+`OK` - Alles in Ordnung! <br>
+`CRIT` - Eine der SMART-Wert funktioniert nicht richtig! <br>
+`WARM` - Unbekannter Parameter! <br>
+`UNKNOWN` - Datei wurde nicht gefunden! <br>
 
 
 ## Quelle ##
