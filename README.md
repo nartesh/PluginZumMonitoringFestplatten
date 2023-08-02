@@ -1,5 +1,5 @@
 ## CheckMK Plugin zum Monitoring von Festplatten ##
-Das CheckMK-Plugin zum Monitoring von Festplatten ermöglicht die ***Überwachung der SMART-Werte*** von SSDs und Festplatten in Echtzeit. <br>
+Das CheckMK-Plugin zum Monitoring von Festplatten ermöglicht die ***Überwachung der SMART-Werte*** von Festplatten in Echtzeit. <br>
 Es können Probleme mit Festplatten frühzeitig erkannt und behoben werden, um potenzielle Ausfälle und Datenverlust zu vermeiden. <br>
 Das Plugin verwendet für die Abfrage der Smart-Werte den Kommandozeile-Befehl **`smartctl`**. <br>
 Für die Analyse relevante Parameter ist **`Critical Warning`**, der je nach nicht ordnungsgemäß funktionierendem SMART-Wert. <br>
